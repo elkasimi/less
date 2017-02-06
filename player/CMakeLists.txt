@@ -1,0 +1,33 @@
+set(HEADERS
+    Board.h
+    Common.h
+    ExpectMinMaxStrategy.h
+    MCTSStrategy.h
+    Node.h
+    RandomStrategy.h
+    RandomNumberGenerator.h
+    RunStrategy.h
+    Strategy.h
+    Conversion.h
+    Timer.h
+    TranspositionTable.h
+)
+
+set(SOURCES
+    Board.cc
+    ExpectMinMaxStrategy.cc
+    MCTSStrategy.cc
+    Node.cc
+    main.cc
+    RandomStrategy.cc
+    RandomNumberGenerator.cc
+    RunStrategy.cc
+    Conversion.cc
+    Timer.cc
+    TranspositionTable.cc
+)
+
+add_executable(Player
+    ${HEADERS}
+    ${SOURCES}
+)
