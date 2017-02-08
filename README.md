@@ -1,7 +1,8 @@
 ![Less board](http://www.codecup.nl/images/leeg_bord.png)
 
 
-This is my player for the game less for CodeCup competition.
+This is my player which ranks second in CodeCup 2017 with the game "less".
+
 For an overview of the rules of game less:
 
 [LESS-RULES](http://www.codecup.nl/rules_less.php)
